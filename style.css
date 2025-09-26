@@ -76,9 +76,10 @@ nav{
 .content{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content:end;
     padding: 0px 70px;
     flex-direction: column;
+    height: 75%;
 }
 .content h1{
     text-transform: uppercase;
@@ -108,4 +109,54 @@ nav{
 video{
     height: 100vh;
     width: 50%;
+}
+.hero2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.hero2 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(80%);
+}
+
+.content2{
+    position: absolute;
+    top: 10%;
+    z-index: 999;
+  left: 45%;
+}
+.content2 h1{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.content2 p{
+    margin-top: 25px;
+    font-size: 1vw;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.content2 a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 1vw;
+    border: 1px solid rgba(255, 255, 255, 0.374);
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #00000063;
+}
+
+.content2 a:hover{
+    background-color: #ffff;
+    color: #000000;
+    transition: all linear 0.3s;
+}
+.content2 a:hover i{
+    color: #000000;
 }
