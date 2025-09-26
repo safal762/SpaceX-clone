@@ -11,6 +11,9 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 nav{
     height: 50px;
     width: 100%;
@@ -159,4 +162,54 @@ video{
 }
 .content2 a:hover i{
     color: #000000;
+}
+
+.vedi0{
+    position: relative;
+}
+.hero3 video{
+    height: 90%;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.contentnext{
+    width: 50%;
+    left: 10%;
+    top: 30%;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 0px 50px;
+}
+
+footer .footercentre{
+    display: flex;
+    gap: 20px;
+}
+
+footer .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 2vw;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+footer .footercentre h3{
+    font-weight: 500;
+}
+footer .rights h3{
+    font-weight: 500;
 }
